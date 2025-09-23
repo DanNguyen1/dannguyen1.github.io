@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="'en">
+<div>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css">
         <title>Home | Dan Nguyen Portfolio</title>
         <nav class="navbar">
             <ul>
-                <li><a href='index.html'>Home</a></li>
                 <li><a href='contact.html'>Contact</a></li>
                 <li><a href='publications.html'>Publications</a></li>
+                <li><a href='index.html'>Home</a></li>
             </ul>
         </nav>
-        <div>
-            <h1>Dan Nguyen</h1>
-            <h2>Ph.D. Candidate at University of Massachusetts, Lowell</h2>
-            <img src="images/1660827587044.jpg" alt="A picture of me" width=100px height=100px>
-        </div>
     </head>
 
-    <body>
-        <div>
+    <div class="body">
+        <div class="name-title-header">
+            <h1>Dan Nguyen</h1>
+            <h2>Ph.D. Candidate at University of Massachusetts, Lowell</h2>
+            <img src="images/1660827587044.jpg" alt="A picture of me" width=300px height=300px>
+        </div>
+        <div class="container">
             <h3>About Dan</h3>
             <p> I am currently a 1st year Ph.D. candidate studying under Dr. Tingjian Ge at the University of Massachusetts, Lowell. Previously, I recevied my Master's of Science at
                 UML. I am a part of the Data Mining and Database research group where we study how to apply data mining and machine learning techniques on large databases in
@@ -29,11 +31,11 @@
             <p>
                 My research interests include optimization of graph neural networks, improving the explainibility of graph machine learning, and utilization of graph-based models
                 as an enhancement for large language models. I have done study in devising machine learning architectures mores suited for graph data that is constantly evolving over time,
-                known in the field as continuou time dynamic graphs (CTDGs). Currently, the focus of my research seeks to improve graph models' abilities to incorporate the information of nodes
+                known in the field as continuous time dynamic graphs (CTDGs). Currently, the focus of my research seeks to improve graph models' abilities to incorporate the information of nodes
                 that are far away from one another and that which are relevant to the intended output of the model. Additionally, I have done work with 
             </p>
         </div>
-        <div>
+        <div class="container">
             <h3>News</h3>
             <div>
                 <ul>
@@ -44,21 +46,22 @@
                 </ul>
             </div>
         </div>
-    </body>
 
-    <footer>
-        <span>
-            <a href="https://github.com/DanNguyen1">
-                <img src="images/github-mark.svg" alt="GitHub Logo" height="20px" width="20px">
-                GitHub
-            </a>
-        </span>
-        <span>
-            <a href="https://www.linkedin.com/in/dan-nguyen1/">
-                <img src="images/LI-In-Bug.png" alt="LinkedIn" height="20px" width="20px">
-                LinkedIn
-            </a>
-        </span>
-    </footer>
-    
+        <div class="footer">
+            <hr class="section-break">
+            <span>
+                <a href="https://github.com/DanNguyen1">
+                    <img src="images/github-mark.svg" alt="GitHub Logo" height="20px" width="20px">
+                    GitHub
+                </a>
+            </span>
+            <span>
+                <a href="https://www.linkedin.com/in/dan-nguyen1/">
+                    <img src="images/LI-In-Bug.png" alt="LinkedIn" height="20px" width="20px">
+                    LinkedIn
+                </a>
+            </span>
+        </div>
+    </div>
+</div>
 </html>

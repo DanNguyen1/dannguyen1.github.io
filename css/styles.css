@@ -1,0 +1,105 @@
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3B3B3B;
+}
+
+.navbar ul li {
+    float: right;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px
+}
+
+.navbar ul li a:hover {
+    background-color: black;
+}
+
+.footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    text-align: center;
+    background-color: #D3D3D3;
+}
+
+.footer span {
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.body {
+    min-height: 100%;
+}
+
+.accepted {
+    color: red;
+}
+
+.name-title-header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-break {
+    width: 95%;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+  }
+  
+.flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.publications {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    background-color: white;
+}
+
+.publications ul ul {
+    list-style-type: none;
+}
+
+.publications ul ul > li:first-child {
+    color: #6495ED
+}
+
+.center {
+    text-align: center;
+}
+
+html {
+    background-color: #D3D3D3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', monospace;
+}
