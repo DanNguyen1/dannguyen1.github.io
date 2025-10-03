@@ -96,10 +96,12 @@
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
 }
   
 .flex-container > div {
     background-color: var(--container-color);
+    min-width: 45%;
     margin: 10px;
     padding: 20px;
     flex: 1;
