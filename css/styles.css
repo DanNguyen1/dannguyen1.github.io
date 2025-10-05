@@ -102,6 +102,7 @@
 .flex-container > div {
     background-color: var(--container-color);
     min-width: 45%;
+    height: 100%;
     margin: 10px;
     padding: 20px;
     flex: 1;
